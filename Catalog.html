@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charSSet="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Roboto&display=swap"
         rel="stylesheet" />
-        <script src="https://kit.fontawesome.com/3bbf5aa84b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3bbf5aa84b.js" crossorigin="anonymous"></script>
+
     <title>shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -100,45 +101,71 @@
             </nav>
         </div>
     </header>
-    <section class="baner">
-        <div class="container baner__wrap">
-            <h1 class="baner__title">THE BRAND <br>
-                <span class="baner__text">OF LUXERIOUS <span class="baner__text_dec">FASHION</span> </span>
-            </h1>
+    <section class="top_page">
+        <div class="container top_page_wrap">
+            <div class="left_top">
+                <h1 class="header_top">NEW ARRIVALS</h1>
+            </div>
+            <nav class="right_top">
+                <ul class="breadcrumb">
+                    <li><a class="bc" href="Index.html">HOME</a></li>
+                    <li><a class="bc" href="#">MEN</a></li>
+                    <li class="active">NEW ARRIVALS</li>
+                </ul>
+            </nav>
         </div>
     </section>
-    <section class="advantage">
-        <div class="container advantage__wrap">
-            <div class="ad_top">
-                <a class="advantage__card wom" href="#">
-                    <h2 class="ad_title">30% OFF<br>
-                        <span class="ad_text">FOR WOMEN</span>
-                    </h2>
-                </a>
-                <a class="advantage__card men" href="#">
-                    <h2 class="ad_title">HOT DEAL<br>
-                        <span class="ad_text">FOR MEN</span>
-                    </h2>
-                </a>
-                <a class="advantage__card kid" href="#">
-                    <h2 class="ad_title">NEW ARRIVALS<br>
-                        <span class="ad_text">FOR KIDS</span>
-                    </h2>
-                </a>
+    <section class="item_sec">
+        <div class="container ">
+            <div class="filter_wrap">
+                <div class="filter">
+                    <h2 class="filter_heading"> <strong>FILTER</strong><i class="fa-solid fa-bars"></i></h2>
+
+                    <div class="mega_box filter_box">
+                        <h2 class="filter_heading" style="color:#EF5B70;margin-left: 0px; "> <strong>FILTER</strong><i
+                                style="color:#EF5B70;" class="fa-solid fa-bars "></i></h2>
+                        <div class="mega_item mega_item_filter">
+                            <h3 class="mega_heading mega_heading_filter ">CATEGORY</h3>
+                            <a class="mega_link filter_link" href="#">Accessories</a>
+                            <a class="mega_link filter_link" href="#">Bags</a>
+                            <a class="mega_link filter_link" href="#">Denim</a>
+                            <a class="mega_link filter_link" href="#">Hoodies & Sweatshirts</a>
+                            <a class="mega_link filter_link" href="#">Jackets & Coats</a>
+                            <a class="mega_link filter_link" href="#">Polos</a>
+                            <a class="mega_link filter_link" href="#">Shirts</a>
+                            <a class="mega_link filter_link" href="#">Shoes</a>
+                            <a class="mega_link filter_link" href="#">Sweaters & Knits</a>
+                            <a class="mega_link filter_link" href="#">T-Shirts</a>
+                            <a class="mega_link filter_link" href="#">Tanks</a>
+                        </div>
+                        <div class="mega_item mega_item_filter ">
+                            <h3 class="mega_heading mega_heading_filter">BRAND</h3>
+                        </div>
+                        <div class="mega_item mega_item_filter">
+                            <h3 class="mega_heading mega_heading_filter">DESIGNER</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="other__filter">
+                    <details>
+                        <summary class="other_summary">TRENDING NOW <i class="fa-solid fa-angle-down"></i></summary>
+                    </details>
+                    <details class="other_detals">
+                        <summary class="other_summary">SIZE <i class="fa-solid fa-angle-down"></i> </summary>
+                        <div class="other_label">
+                            <label class="label_cat" for="XS"><input id="XS" type="checkbox">XS</label>
+                            <label class="label_cat" for="S"><input id="S" type="checkbox">S</label>
+                            <label class="label_cat" for="M"><input id="M" type="checkbox">M</label>
+                            <label class="label_cat" for="L"><input id="L" type="checkbox">L</label>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="other_summary">PRICE <i class="fa-solid fa-angle-down"></i></summary>
+
+                    </details>
+                </div>
+                <div class="space"></div>
             </div>
-            <div class="ad_bot">
-                <a class="advantage__card acc" href="#">
-                    <h2 class="ad_title">LUXIROUS & TRENDY<br>
-                        <span class="ad_text">ACCESORIES</span>
-                    </h2>
-                </a>
-            </div>
-        </div>
-    </section>
-   <section class="item_sec">
-        <div class="container">
-            <h3 class="item_heading">Fetured Items</h3>
-            <p class="sec_desc">Shop for items based on what we featured in this week</p>
             <div class="item_flex">
                 <div class="item">
                     <a class="item_link" href="">
@@ -155,11 +182,11 @@
                             <img src="img/add_cart.svg" alt="cart">
                             <p class="add_txt">Add to Cart</p>
                         </a>
-                    </div>                                        
+                    </div>
                 </div>
                 <div class="item">
                     <a class="item_link" href="">
-                        <img class="item_pic" src="img/prod2.jpg" alt="продукция">
+                        <img class="item_pic" src="img/catal2.jpg" alt="продукция">
                         <div class="txt_box">
                             <p class="item_desc">ELLERY X M'O CAPSULE</p>
                             <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
@@ -210,7 +237,7 @@
                 </div>
                 <div class="item">
                     <a class="item_link" href="">
-                        <img class="item_pic" src="img/prod5.jpg" alt="продукция">
+                        <img class="item_pic" src="img/catal5.jpg" alt="продукция">
                         <div class="txt_box">
                             <p class="item_desc">ELLERY X M'O CAPSULE</p>
                             <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
@@ -227,7 +254,58 @@
                 </div>
                 <div class="item">
                     <a class="item_link" href="">
-                        <img class="item_pic" src="img/prod6.jpg" alt="продукция">
+                        <img class="item_pic" src="img/catal6.jpg" alt="продукция">
+                        <div class="txt_box">
+                            <p class="item_desc">ELLERY X M'O CAPSULE</p>
+                            <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
+                                arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                            <p class="item_price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add_box">
+                        <a class="add" href="">
+                            <img src="img/add_cart.svg" alt="cart">
+                            <p class="add_txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="item_link" href="">
+                        <img class="item_pic" src="img/catal7.jpg" alt="продукция">
+                        <div class="txt_box">
+                            <p class="item_desc">ELLERY X M'O CAPSULE</p>
+                            <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
+                                arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                            <p class="item_price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add_box">
+                        <a class="add" href="">
+                            <img src="img/add_cart.svg" alt="cart">
+                            <p class="add_txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="item_link" href="">
+                        <img class="item_pic" src="img/catal8.jpg" alt="продукция">
+                        <div class="txt_box">
+                            <p class="item_desc">ELLERY X M'O CAPSULE</p>
+                            <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
+                                arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                            <p class="item_price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add_box">
+                        <a class="add" href="">
+                            <img src="img/add_cart.svg" alt="cart">
+                            <p class="add_txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="item_link" href="">
+                        <img class="item_pic" src="img/catal9.jpg" alt="продукция">
                         <div class="txt_box">
                             <p class="item_desc">ELLERY X M'O CAPSULE</p>
                             <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
@@ -243,30 +321,45 @@
                     </div>
                 </div>
             </div>
-            <div class="item_button">
-                <a class="button">
-                    Browse All Product
-                </a>
-            </div>
-    </section> 
+        </div>
+    </section>
+    <nav>
+        <div class="container pagination">
+            <a class="arrow" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+            <a class="number" href="#">1</a>
+            <a class="number" href="#">2</a>
+            <a class="number" href="#">3</a>
+            <a class="number" href="#">4</a>
+            <a class="number" href="#">5</a>
+            <a class="number" href="#">6</a>
+            <a class="number" style="padding:0px;" href="#">.....</a>
+            <a class="number" href="#">20</a>
+            <a class="arrow" href="#"><i class="fa-solid fa-chevron-right"></i></a>
+
+
+        </div>
+    </nav>
     <section class="plus">
         <div class="container plus__wrap">
             <div class="quality">
                 <img class="plus_pic" src="img/del.svg" alt="delivery">
                 <h2 class="plus_heading">Free Delivery</h2>
-                <p class="plus_txt">Worldwide delivery on all. Authorit tively morph <br> next-generation innov tion with
+                <p class="plus_txt">Worldwide delivery on all. Authorit tively morph <br> next-generation innov tion
+                    with
                     extensive models.</p>
             </div>
             <div class="quality">
                 <img class="plus_pic" src="img/sale.svg" alt="delivery">
                 <h2 class="plus_heading">Sales & discounts</h2>
-                <p class="plus_txt">Worldwide delivery on all. Authorit tively morph <br> next-generation innov tion with
+                <p class="plus_txt">Worldwide delivery on all. Authorit tively morph <br> next-generation innov tion
+                    with
                     extensive models.</p>
             </div>
             <div class="quality">
                 <img class="plus_pic" src="img/q.svg" alt="delivery">
                 <h2 class="plus_heading">Quality assurance</h2>
-                <p class="plus_txt">Worldwide delivery on all. Authorit tively morph <br> next-generation innov tion with
+                <p class="plus_txt">Worldwide delivery on all. Authorit tively morph <br> next-generation innov tion
+                    with
                     extensive models.</p>
             </div>
         </div>
@@ -284,8 +377,8 @@
                     </div>
                     <div class="footer_form">
                         <h2 class="footer_title">SUBSCRIBE</h2>
-                            <h3 class="title_h3">FOR OUR NEWLETTER AND PROMOTION</h3>
-                        
+                        <h3 class="title_h3">FOR OUR NEWLETTER AND PROMOTION</h3>
+
                         <form action="#">
                             <input class="textarea" placeholder="Enter Your Email" type="email">
                             <button class="push" type="submit">Subscribe</button>
@@ -297,13 +390,13 @@
         <div class="footer__nonbg">
             <div class="container bottom_wrap">
                 <div class="footer_bot">
-                    <p class="copy">© 2021  Brand  All Rights Reserved.</p>
+                    <p class="copy">© 2021 Brand All Rights Reserved.</p>
                 </div>
                 <div class="icons">
                     <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                     <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-pinterest-p"></i></a> 
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>         
+                    <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
                 </div>
             </div>
         </div>
