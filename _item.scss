@@ -1,0 +1,116 @@
+.item {
+    width: 360px;
+    position: relative;
+    background: #F8F8F8;
+  }
+  
+  .item_lnk {
+    display: block;
+  
+  }
+  
+  .item:hover .item_pic {
+    filter: brightness(30%);
+  }
+  
+  .txt_box {
+    padding: 20px;
+  
+  }
+  
+  .item_desc {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  
+  .item_detal {
+    margin-bottom: 18px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+  }
+  
+  .item_price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    text-transform: uppercase;
+  
+  }
+  
+  .item_heading {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  
+  .sec_desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  
+  .add_box {
+    display: none;
+    position: absolute;
+    top: 188px;
+    justify-content: center;
+    width: 100%;
+    pointer-events: none;
+  }
+  
+  .add {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #fff;
+    pointer-events: all;
+  }
+  
+  .add:hover {
+    box-shadow: 0 0 10px #FFF;
+  }
+  
+  .item:hover .add_box {
+    display: flex;
+  }
+  
+  .add_txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFF;
+    margin-left: 11px;
+  }
+  
+  .item_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 48px;
+  }
+  
+  .item_button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 95px;
+  
+  }
+  
+  .item_button_prod {
+    display: flex;
+    justify-content: center;
+  }

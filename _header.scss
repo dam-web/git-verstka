@@ -1,0 +1,26 @@
+.header {
+    background: #222222;
+  }
+  
+  .header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__left,
+  .header__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .header__left {
+    gap: 41px;
+  }
+  
+  .li {
+    padding: 30px 16px 25px 16px;
+  }
+  
