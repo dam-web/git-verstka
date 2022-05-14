@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charSSet="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Roboto&display=swap"
         rel="stylesheet" />
-        <script src="https://kit.fontawesome.com/3bbf5aa84b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3bbf5aa84b.js" crossorigin="anonymous"></script>
+
     <title>shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -100,66 +101,72 @@
             </nav>
         </div>
     </header>
-    <section class="baner">
-        <div class="container baner__wrap">
-            <h1 class="baner__title">THE BRAND <br>
-                <span class="baner__text">OF LUXERIOUS <span class="baner__text_dec">FASHION</span> </span>
-            </h1>
+    <section class="top_page">
+        <div class="container top_page_wrap">
+            <div class="left_top">
+                <h1 class="header_top">NEW ARRIVALS</h1>
+            </div>
+            <nav class="right_top">
+                <ul class="breadcrumb">
+                    <li><a class="bc" href="Index.html">HOME</a></li>
+                    <li><a class="bc" href="#">MEN</a></li>
+                    <li class="active">NEW ARRIVALS</li>
+                </ul>
+            </nav>
         </div>
     </section>
-    <section class="advantage">
-        <div class="container advantage__wrap">
-            <div class="ad_top">
-                <a class="advantage__card wom" href="#">
-                    <h2 class="ad_title">30% OFF<br>
-                        <span class="ad_text">FOR WOMEN</span>
-                    </h2>
-                </a>
-                <a class="advantage__card men" href="#">
-                    <h2 class="ad_title">HOT DEAL<br>
-                        <span class="ad_text">FOR MEN</span>
-                    </h2>
-                </a>
-                <a class="advantage__card kid" href="#">
-                    <h2 class="ad_title">NEW ARRIVALS<br>
-                        <span class="ad_text">FOR KIDS</span>
-                    </h2>
-                </a>
+    <section class="slider">
+        <div class="slide__buttons">
+            <div class="slide__left">
+                <i class="fa-solid fa-chevron-left"></i>
             </div>
-            <div class="ad_bot">
-                <a class="advantage__card acc" href="#">
-                    <h2 class="ad_title">LUXIROUS & TRENDY<br>
-                        <span class="ad_text">ACCESORIES</span>
-                    </h2>
+            <div class="slide__right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+        <div class="container slider_wrap">
+            <img src="img/slaider.png" alt="photo">
+        </div>
+
+    </section>
+    <section class="offer">
+        <div class="container offer_wrap">
+            <h4 class="offer_h4">WOMEN COLLECTION</h4>
+            <div class="pink"></div>
+            <h3 class="offer_h3">MOSCHINO CHEAP AND CHIC</h3>
+            <p class="offer_txt">Compellingly actualize fully researched processes before proactive outsourcing.
+                Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize
+                parallel core competencies rather than exceptional portals. </p>
+            <p class="offer_price">$561</p>
+            <div class="choose">
+                <div class="choose_detal">
+                    <h3 class="choose_txt">CHOOSE COLOR</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="choose_detal">
+                    <h3 class="choose_txt">CHOOSE SIZE </h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="choose_detal">
+                    <h3 class="choose_txt">QUANTITY</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+
+            </div>
+            <div class="item_button_prod">
+                <a class="button">
+                    <img class="img_button" src="img/prod_cart.svg" alt="cart">
+                    <p class="offer_button">Add to Cart</p>
                 </a>
             </div>
         </div>
     </section>
-    <section class="item_sec">
+    <section class="item_sec_prod">
         <div class="container">
-            <h3 class="item_heading">Fetured Items</h3>
-            <p class="sec_desc">Shop for items based on what we featured in this week</p>
             <div class="item_flex">
                 <div class="item">
                     <a class="item_link" href="">
-                        <img class="item_pic" src="img/prod1.jpg" alt="продукция">
-                        <div class="txt_box">
-                            <p class="item_desc">ELLERY X M'O CAPSULE</p>
-                            <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
-                                arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                            <p class="item_price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add_box">
-                        <a class="add" href="">
-                            <img src="img/add_cart.svg" alt="cart">
-                            <p class="add_txt">Add to Cart</p>
-                        </a>
-                    </div>                                        
-                </div>
-                <div class="item">
-                    <a class="item_link" href="">
-                        <img class="item_pic" src="img/prod2.jpg" alt="продукция">
+                        <img class="item_pic" src="img/prod4.jpg" alt="продукция">
                         <div class="txt_box">
                             <p class="item_desc">ELLERY X M'O CAPSULE</p>
                             <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
@@ -193,40 +200,6 @@
                 </div>
                 <div class="item">
                     <a class="item_link" href="">
-                        <img class="item_pic" src="img/prod4.jpg" alt="продукция">
-                        <div class="txt_box">
-                            <p class="item_desc">ELLERY X M'O CAPSULE</p>
-                            <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
-                                arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                            <p class="item_price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add_box">
-                        <a class="add" href="">
-                            <img src="img/add_cart.svg" alt="cart">
-                            <p class="add_txt">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <a class="item_link" href="">
-                        <img class="item_pic" src="img/prod5.jpg" alt="продукция">
-                        <div class="txt_box">
-                            <p class="item_desc">ELLERY X M'O CAPSULE</p>
-                            <p class="item_detal">Known for her sculptural takes on traditional tailoring, Australian
-                                arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                            <p class="item_price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add_box">
-                        <a class="add" href="">
-                            <img src="img/add_cart.svg" alt="cart">
-                            <p class="add_txt">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <a class="item_link" href="">
                         <img class="item_pic" src="img/prod6.jpg" alt="продукция">
                         <div class="txt_box">
                             <p class="item_desc">ELLERY X M'O CAPSULE</p>
@@ -243,34 +216,9 @@
                     </div>
                 </div>
             </div>
-            <div class="item_button">
-                <a class="button">
-                    Browse All Product
-                </a>
-            </div>
     </section>
-    <section class="plus">
-        <div class="container plus__wrap">
-            <div class="quality">
-                <img class="plus_pic" src="img/del.svg" alt="delivery">
-                <h2 class="plus_heading">Free Delivery</h2>
-                <p class="plus_txt">Worldwide delivery on all. Authorit tively morph <br> next-generation innov tion with
-                    extensive models.</p>
-            </div>
-            <div class="quality">
-                <img class="plus_pic" src="img/sale.svg" alt="delivery">
-                <h2 class="plus_heading">Sales & discounts</h2>
-                <p class="plus_txt">Worldwide delivery on all. Authorit tively morph <br> next-generation innov tion with
-                    extensive models.</p>
-            </div>
-            <div class="quality">
-                <img class="plus_pic" src="img/q.svg" alt="delivery">
-                <h2 class="plus_heading">Quality assurance</h2>
-                <p class="plus_txt">Worldwide delivery on all. Authorit tively morph <br> next-generation innov tion with
-                    extensive models.</p>
-            </div>
-        </div>
-    </section>
+
+
     <footer class="footer">
         <div class="footer_bg">
             <div class="container footer__wrap">
@@ -284,8 +232,8 @@
                     </div>
                     <div class="footer_form">
                         <h2 class="footer_title">SUBSCRIBE</h2>
-                            <h3 class="title_h3">FOR OUR NEWLETTER AND PROMOTION</h3>
-                        
+                        <h3 class="title_h3">FOR OUR NEWLETTER AND PROMOTION</h3>
+
                         <form action="#">
                             <input class="textarea" placeholder="Enter Your Email" type="email">
                             <button class="push" type="submit">Subscribe</button>
@@ -297,13 +245,13 @@
         <div class="footer__nonbg">
             <div class="container bottom_wrap">
                 <div class="footer_bot">
-                    <p class="copy">© 2021  Brand  All Rights Reserved.</p>
+                    <p class="copy">© 2021 Brand All Rights Reserved.</p>
                 </div>
                 <div class="icons">
                     <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                     <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-pinterest-p"></i></a> 
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>         
+                    <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
                 </div>
             </div>
         </div>
