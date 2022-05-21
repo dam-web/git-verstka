@@ -81,6 +81,21 @@ body {
 
 @import "header";
 
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .baner {
   background: #F1E4E6;
 
@@ -90,6 +105,8 @@ body {
     align-items: center;
     background: url(img/top.png) no-repeat -220px;
     min-height: 764px;
+    animation: tracking-in-expand 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
   }
 
   &__title {
@@ -99,6 +116,7 @@ body {
     line-height: 58px;
     border-left: 12px solid #F16D7F;
     padding: 0 0 0 16px;
+
   }
 
   &__text {
@@ -238,6 +256,8 @@ body {
 
 @import "item";
 
+
+
 .button {
   background: #FFF;
   text-align: center;
@@ -253,9 +273,12 @@ body {
   height: 47px;
 }
 
+
+
 .button:hover {
   background: #F16D7F;
   color: #FFFFFF;
+
 }
 
 .plus {
@@ -399,6 +422,39 @@ body {
     line-height: 19px;
     margin-top: 17px;
   }
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+
+.push:hover {
+  animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
 .footer__nonbg {
