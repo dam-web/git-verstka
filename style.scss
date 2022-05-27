@@ -332,9 +332,9 @@ body {
 
 .footer_bg {
   background: url(img/footer.png) no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 448px;
-  background-position: center;
+  background-position: bottom;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -412,6 +412,7 @@ body {
     font-size: 14px;
     line-height: 17px;
 
+
   }
 
   &_cart {
@@ -422,6 +423,27 @@ body {
     line-height: 19px;
     margin-top: 17px;
   }
+}
+
+.push:hover {
+  background: #FFFFFF;
+  color: #F16D7F;
+  border: 1px solid #F16D7F;
+  ;
+
+}
+
+.push_reg:hover {
+  border: 1px solid #F16D7F;
+}
+
+.fa-arrow-right-long {
+  margin-left: 20px;
+
+}
+
+.fa-arrow-right-long:hover {
+  color: #F16D7F;
 }
 
 @keyframes heartbeat {
@@ -653,10 +675,21 @@ ul.breadcrumb li+li:before {
   display: flex;
   align-items: end;
 
+
+}
+.color{
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  border-radius: 20px;
 }
 
 .choose_txt {
   margin-right: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
 }
 
 .pink {
@@ -753,6 +786,8 @@ ul.breadcrumb li+li:before {
 .label_cat {
   display: inline-block;
   margin-bottom: 3px;
+  display: flex;
+  align-items:flex-end;
 }
 
 label input {
@@ -766,9 +801,14 @@ label input {
   background: #FFFFFF;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   width: 79px;
-  height: 103px;
   padding: 7px 0px 11px 9px;
   margin-top: 5px;
+}
+.other_label_product{
+  width: 100px;
+  text-align: start;
+  display: flex;
+   
 }
 
 .other_summary {
@@ -934,6 +974,11 @@ ul.reg_right_ul li::before {
   margin-bottom: 40px;
 }
 
+.item_pic_cart {
+  width: 262px;
+  height: 306px;
+}
+
 .txt_box_cart {
   width: 390px;
   padding: 22px 0px 62px 32px;
@@ -963,6 +1008,7 @@ ul.reg_right_ul li::before {
   font-size: 22px;
   line-height: 26px;
   color: #575757;
+  margin-bottom: 6px;
 
 }
 
@@ -995,10 +1041,16 @@ ul.reg_right_ul li::before {
   width: 235px;
   height: 50px;
   margin-top: 32px;
+
+  &:hover {
+    background: #F16D7F;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+  }
 }
 
 .cart_button_size {
-  width: 102px;
+  width: 105px;
   height: 35px;
   font-size: 11px;
   line-height: 13px;
