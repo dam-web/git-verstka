@@ -38,6 +38,9 @@
                             d="M19.0596 17.6259C20.6713 15.8658 21.6282 13.6048 21.7698 11.2225C21.9113 8.84018 21.2288 6.48173 19.8369 4.54318C18.445 2.60463 16.4285 1.20404 14.126 0.576619C11.8234 -0.0508009 9.3751 0.13316 7.19217 1.09761C5.00923 2.06205 3.22463 3.74825 2.13804 5.87302C1.05145 7.9978 0.729054 10.4318 1.225 12.7661C1.72094 15.1005 3.00501 17.1932 4.86158 18.6927C6.71814 20.1922 9.03413 21.0072 11.4206 21.0009C13.673 21.004 15.8645 20.27 17.6606 18.9109L25.4086 26.7179C25.4941 26.807 25.5965 26.8781 25.7099 26.927C25.8232 26.9759 25.9452 27.0017 26.0686 27.0029C26.1923 27.0033 26.3148 26.9782 26.4283 26.9292C26.5419 26.8801 26.6441 26.8082 26.7286 26.7179C26.9025 26.537 26.9997 26.2958 26.9997 26.0449C26.9997 25.794 26.9025 25.5528 26.7286 25.3719L19.0596 17.6259ZM2.88662 10.5009C2.89946 8.81563 3.41094 7.17187 4.35659 5.77685C5.30224 4.38183 6.63972 3.29801 8.20044 2.662C9.76115 2.02599 11.4752 1.86627 13.1266 2.20298C14.7779 2.53969 16.2926 3.35775 17.4797 4.55404C18.6668 5.75033 19.4732 7.27129 19.7972 8.92519C20.1212 10.5791 19.9483 12.2919 19.3002 13.8476C18.6522 15.4034 17.5581 16.7325 16.1559 17.6674C14.7536 18.6023 13.1059 19.1011 11.4206 19.1009C9.14916 19.0901 6.97482 18.1784 5.37484 16.566C3.77486 14.9537 2.87998 12.7724 2.88662 10.5009Z"
                             fill="#E8E8E8" />
                     </svg>
+                    <form class="header__search_form" action="#"> 
+                        <input class="header__search_input" type="search" size="18" placeholder="search">
+                    </form>
 
                 </a>
             </div>
@@ -138,34 +141,56 @@
                 Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize
                 parallel core competencies rather than exceptional portals. </p>
             <p class="offer_price">$561</p>
-            <div class="choose">
-                <div class="choose_detal">
-                    <h3 class="choose_txt">CHOOSE COLOR</h3>
-                    <i class="fa-solid fa-angle-down"></i>
+            <form action="#">
+                <div class="choose">
+                    <details class="choose_detal">
+                        <summary class="choose_txt">CHOOSE COLOR <i class="fa-solid fa-angle-down"></i> </summary>
+                        <div class="other_label other_label_product">
+                            <label  class="label_cat" for="red"><input id="red" type="checkbox">red <div style="background-color:darkred;" class="color"></div> </label>
+                            <label  class="label_cat" for="green"><input id="green" type="checkbox" >green <div style="background-color:darkgreen;" class="color"></div></label>
+                            <label  class="label_cat" for="black"><input id="black" type="checkbox" >black <div style="background-color:black;" class="color"></div></label>
+                            <label  class="label_cat" for="white"><input id="white" type="checkbox">white <div style="background-color:white; " class="color"></div></label>
+                        </div> 
+                    </details>
+                    <details class="choose_detal">
+                        <summary class="choose_txt">CHOOSE SIZE <i class="fa-solid fa-angle-down"></i> </summary>
+                        <div class="other_label other_label_product">
+                            <label class="label_cat" for="XS"><input id="XS" type="checkbox">XS</label>
+                            <label class="label_cat" for="S"><input id="S" type="checkbox">S</label>
+                            <label class="label_cat" for="M"><input id="M" type="checkbox">M</label>
+                            <label class="label_cat" for="L"><input id="L" type="checkbox">L</label>
+                        </div>
+                    </details>
+                    <details class="choose_detal">
+                        <summary class="choose_txt">QUANTITY <i class="fa-solid fa-angle-down"></i></summary>
+                    <div class="other_label other_label_product">                        
+                        <label  for="1"><input id="1" type="radio" name="q" checked> 1</label>                      
+                        <label  for="2"><input id="2" type="radio" name="q"> 2</label>
+                        <label  for="3"><input id="3" type="radio" name="q"> 3</label>
+                        <label  for="4"><input id="4" type="radio" name="q"> 4</label>
+                        <label  for="5"><input id="5" type="radio" name="q"> 5</label>
+                        <label  for="6"><input id="6" type="radio" name="q"> 6</label>
+                        <label  for="7"><input id="7" type="radio" name="q"> 7</label>
+                        <label  for="8"><input id="8" type="radio" name="q"> 8</label>
+                        <label  for="9"><input id="9" type="radio" name="q"> 9</label>
+                        <label  for="10"><input id="10" type="radio" name="q"> 10</lable>
+                    </div>
+                    </details>
                 </div>
-                <div class="choose_detal">
-                    <h3 class="choose_txt">CHOOSE SIZE </h3>
-                    <i class="fa-solid fa-angle-down"></i>
+                <div class="item_button_prod">
+                    <a class="button">
+                        <img class="img_button" src="img/prod_cart.svg" alt="cart">
+                        <p class="offer_button">Add to Cart</p>
+                    </a>
                 </div>
-                <div class="choose_detal">
-                    <h3 class="choose_txt">QUANTITY</h3>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-
-            </div>
-            <div class="item_button_prod">
-                <a class="button">
-                    <img class="img_button" src="img/prod_cart.svg" alt="cart">
-                    <p class="offer_button">Add to Cart</p>
-                </a>
-            </div>
+            </form>
         </div>
     </section>
     <section class="item_sec_prod">
         <div class="container">
             <div class="item_flex">
                 <div class="item">
-                    <a class="item_link" href="#">
+                    <a class="item_link" href="Product.html">
                         <img class="item_pic" src="img/prod4.jpg" alt="продукция">
                         <div class="txt_box">
                             <p class="item_desc">ELLERY X M'O CAPSULE</p>
@@ -182,7 +207,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <a class="item_link" href="#">
+                    <a class="item_link" href="Product.html">
                         <img class="item_pic" src="img/prod3.jpg" alt="продукция">
                         <div class="txt_box">
                             <p class="item_desc">ELLERY X M'O CAPSULE</p>
@@ -199,7 +224,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <a class="item_link" href="#">
+                    <a class="item_link" href="Product.html">
                         <img class="item_pic" src="img/prod6.jpg" alt="продукция">
                         <div class="txt_box">
                             <p class="item_desc">ELLERY X M'O CAPSULE</p>
